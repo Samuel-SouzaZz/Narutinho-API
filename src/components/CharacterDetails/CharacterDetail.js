@@ -5,7 +5,7 @@ export const CharacterDetailComponente = ({ character, onClose }) => {
   return (
     <CharacterDetail key={character.id}>
       <div>
-        <span onClick={onClose} style={{ color: "red", cursor: "pointer" }}>X</span> {/* Alterado para vermelho */}
+        <span className="close-button" onClick={onClose}>X</span>
       </div>
       <div>
         <img src={character.images[0]} alt={character.name} />
