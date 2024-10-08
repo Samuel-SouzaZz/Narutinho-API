@@ -42,8 +42,13 @@ export const CharacterDetail = styled.div`
     }
 
     & .close-button {
+<<<<<<< HEAD
+        color: red !important; /* Não conseguimos alterar a cor do X */
+        font-size: 20px; 
+=======
         color: red !important; 
         font-size: 20px;
+>>>>>>> 3950b7f4fd260bfd63b3134835629900fcc1cbd1
         margin-bottom: 10px; 
         &:hover {
             opacity: 0.8; 

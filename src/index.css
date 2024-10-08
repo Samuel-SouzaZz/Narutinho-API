@@ -7,7 +7,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  /* Background com transparência suave */
   background-image: linear-gradient(#a9a9a9aa, rgba(202, 201, 200, 0.644)), url('https://images.stockcake.com/public/d/b/6/db6c3acb-c91d-4e64-9743-b1061ec91d9c_large/moonlit-swing-solitude-stockcake.jpg');
   background-size: cover;
   background-position: center;
