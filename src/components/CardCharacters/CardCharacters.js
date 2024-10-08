@@ -45,19 +45,19 @@ export const CardCharacters = ({ characters }) => {
     setSelectedCharacter(null);
   };
 
-  const handleEscKey = (event) => {
-    if (event.key === "Escape") {
-      handleCloseModal();
-    }
-  };
-
   useEffect(() => {
+    const handleEscKey = (event) => {
+      if (event.key === "Escape") {
+        handleCloseModal();
+      }
+    };
+
     document.addEventListener("keydown", handleEscKey);
 
     return () => {
       document.removeEventListener("keydown", handleEscKey);
     };
-  }, [handleEscKey]); // handleEscKey adicionado como dependência
+  }, []); // Nenhuma dependência, pois handleEscKey está dentro do useEffect
 
   return (
     <CharactersCard>
