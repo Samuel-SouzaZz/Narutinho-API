@@ -72,12 +72,12 @@ export const Characters = () => {
       <div>
         {currentPage > 1 && (
           <ButtonPagination onClick={() => setCurrentPage(currentPage - 1)}>
-            Anterior // Botão para voltar para a página anterior
+            Anterior
           </ButtonPagination>
         )}
         {currentCharacters.length === charactersPerPage && (
           <ButtonPagination onClick={() => setCurrentPage(currentPage + 1)}>
-            Próxima // Botão para ir para a próxima página
+            Próxima
           </ButtonPagination>
         )}
       </div>
