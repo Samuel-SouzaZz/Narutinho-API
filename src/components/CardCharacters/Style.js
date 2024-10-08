@@ -26,8 +26,9 @@ export const CharacterItem = styled.div`
     }
 
     & img {
-        width: 100%;
-        height: auto;
+        width: 100%; /* Garante que a imagem preencha a largura do contêiner */
+        height: 200px; /* Altura fixa para manter consistência */
+        object-fit: cover; /* Ajusta a imagem para preencher sem distorcer */
         border-radius: 8px;
         margin-bottom: 8px;
     }
@@ -35,5 +36,6 @@ export const CharacterItem = styled.div`
     & h3 {
         font-size: 1.2rem;
         color: ${colors.white};
+        margin: 8px 0; /* Espaçamento superior e inferior */
     }
 `;
