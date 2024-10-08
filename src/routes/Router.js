@@ -1,4 +1,3 @@
-// routes/Router.js
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import { Characters } from "../pages/Characters";
