@@ -1,14 +1,15 @@
 body {
   margin: 0;
+  padding: 0;
+  height: 100%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  /* Background com transparência suave */
+  background-image: linear-gradient(#a9a9a9aa, rgba(202, 201, 200, 0.644)), url('https://images.stockcake.com/public/d/b/6/db6c3acb-c91d-4e64-9743-b1061ec91d9c_large/moonlit-swing-solitude-stockcake.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
