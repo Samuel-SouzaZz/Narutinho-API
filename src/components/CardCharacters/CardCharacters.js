@@ -45,13 +45,13 @@ export const CardCharacters = ({ characters }) => {
     setSelectedCharacter(null);
   };
 
-  useEffect(() => {
-    const handleEscKey = (event) => {
-      if (event.key === "Escape") {
-        handleCloseModal();
-      }
-    };
+  const handleEscKey = (event) => {
+    if (event.key === "Escape") {
+      handleCloseModal();
+    }
+  };
 
+  useEffect(() => {
     document.addEventListener("keydown", handleEscKey);
 
     return () => {
