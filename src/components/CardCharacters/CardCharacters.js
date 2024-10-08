@@ -57,7 +57,7 @@ export const CardCharacters = ({ characters }) => {
     return () => {
       document.removeEventListener("keydown", handleEscKey);
     };
-  }, []); // Nenhuma dependência, pois handleEscKey está dentro do useEffect
+  }, []);
 
   return (
     <CharactersCard>
