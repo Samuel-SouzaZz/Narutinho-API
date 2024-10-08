@@ -35,7 +35,7 @@ export const CharacterDetail = styled.div`
     }
 
     & .close-button {
-        color: red; /* Define a cor do 'X' como vermelho */
+        color: red !important; /* Garante que a cor do 'X' seja vermelha */
         font-size: 20px; /* Ajusta o tamanho da fonte do 'X' */
         margin-bottom: 10px; /* Adiciona uma margem inferior para espaçamento */
         &:hover {
