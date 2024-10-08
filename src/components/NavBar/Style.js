@@ -3,8 +3,8 @@ import { colors } from "../../constans/colors";
 
 export const NavBarContainer = styled.div`
     display: flex;
-    justify-content: space-between; /* Deixa o gif e o logo separados */
-    align-items: center; /* Alinha verticalmente ao centro */
+    justify-content: space-between; 
+    align-items: center; 
     background-color: ${colors.pumpkin};
     padding: 10px 20px;
     box-shadow: 0 2px 2px 2px ${colors.paleGoldenrod};

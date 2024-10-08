@@ -35,11 +35,11 @@ export const CharacterDetail = styled.div`
     }
 
     & .close-button {
-        color: red !important; /* Garante que a cor do 'X' seja vermelha */
-        font-size: 20px; /* Ajusta o tamanho da fonte do 'X' */
-        margin-bottom: 10px; /* Adiciona uma margem inferior para espaçamento */
+        color: red !important; /* Não conseguimos alterar a cor do X */
+        font-size: 20px; 
+        margin-bottom: 10px; 
         &:hover {
-            opacity: 0.8; /* Adiciona um efeito de hover */
+            opacity: 0.8; 
         }
     }
 `;
