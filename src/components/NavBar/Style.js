@@ -3,8 +3,7 @@ import { colors } from "../../constans/colors";
 
 export const NavBarContainer = styled.div`
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    align-items: center; /* Alinha os itens verticalmente ao centro */
     background-color: ${colors.pumpkin};
     padding: 10px 20px;
     box-shadow: 0 2px 2px 2px ${colors.paleGoldenrod};
@@ -12,4 +11,10 @@ export const NavBarContainer = styled.div`
 
 export const Logo = styled.img`
     max-height: 40px; /* Tamanho máximo para o logotipo */
+`;
+
+export const NarutoGif = styled.img`
+    width: 100px; /* ajuste o tamanho conforme necessário */
+    height: auto; /* mantém a proporção */
+    margin-left: 10px; /* espaço à esquerda do gif */
 `;
