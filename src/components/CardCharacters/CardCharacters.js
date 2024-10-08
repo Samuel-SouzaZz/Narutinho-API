@@ -57,7 +57,7 @@ export const CardCharacters = ({ characters }) => {
     return () => {
       document.removeEventListener("keydown", handleEscKey);
     };
-  }, []);
+  }, [handleEscKey]); // handleEscKey adicionado como dependência
 
   return (
     <CharactersCard>
