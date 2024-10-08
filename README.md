@@ -30,16 +30,18 @@ O aplicativo estará disponível em `http://localhost:3000/`.
 
 ## Tecnologias Utilizadas
 
-React: Biblioteca JavaScript para construção de interfaces de usuário.
-Styled-Components: Biblioteca para estilização modular e eficiente de componentes.
-Axios: Biblioteca para realizar requisições HTTP.
-React Router: Gerenciador de rotas para navegação na aplicação.
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **Styled-Components**: Biblioteca para estilização modular e eficiente de componentes.
+- **Axios**: Biblioteca para realizar requisições HTTP.
+- **React Router**: Gerenciador de rotas para navegação na aplicação.
 
 
-## Contribuições
 
-Este projeto foi desenvolvido por:
+## Contribuidores
 
-Carlos Breno Prado Silva
-Samuel Carlos
-Mateus Silva Ramos
+Este projeto foi desenvolvido com a colaboração de:
+
+- **Carlos Breno Prado Silva**
+- **Samuel Carlos**
+- **Mateus Silva Ramos**
+
