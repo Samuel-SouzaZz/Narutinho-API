@@ -2,47 +2,42 @@ import styled from "styled-components";
 
 export const CharacterDetail = styled.div`
     width: 80vw;
-    max-width: 1200px; 
     padding: 20px;
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-evenly;
     align-items: center;
-    background-color: #f9f9f9; 
-    border-radius: 10px; 
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    background-image: url('https://images.stockcake.com/public/d/b/6/db6c3acb-c91d-4e64-9743-b1061ec91d9c_large/moonlit-swing-solitude-stockcake.jpg');
+    background-size: cover; /* Ajusta a imagem para cobrir o elemento */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
 
     & div {
         width: 100%;
         display: flex;
         flex-direction: column;
-        padding: 10px; 
+        color: white; /* Muda a cor do texto para branco para melhor contraste */
     }
-
     & span {
-        display: flex;
-        margin-top: 10px;
-        font-size: 14px; 
-        color: #666; 
+        display: flex; 
+        cursor: pointer; /* Altera o cursor para indicar que é clicável */
     }
-
     & img {
-        width: 100%;
-        max-width: 300px; 
-        height: auto; 
-        border-radius: 10px; 
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
-    }
-
+        width: 300px;
+        height: 230px;
+    } 
     & h3 {
-        font-size: 24px; 
-        color: #333;
-        font-weight: 600;
-        margin: 10px 0;
+        font-size: 25px;
+        font-weight: bold;
     }
-
     & label {
         font-size: 16px;
-        color: #555; 
-        font-weight: 500; 
+        font-weight: bold;
+    }
+
+    /* Estilo específico para o 'X' */
+    & .close-button {
+        color: red; /* Define a cor do 'X' como vermelho */
+        font-size: 20px; /* Ajusta o tamanho da fonte do 'X' */
+        margin-bottom: 10px; /* Adiciona uma margem inferior para espaçamento */
     }
 `;
